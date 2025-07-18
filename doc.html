@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Array vs List</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; line-height: 1.6; }
+    h2 { color: #2c3e50; }
+    code { background-color: #f4f4f4; padding: 2px 4px; border-radius: 4px; }
+    table { border-collapse: collapse; width: 100%; margin-top: 10px; }
+    th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+    th { background-color: #f9f9f9; }
+  </style>
+</head>
+<body>
+
+  <h2>✅ JSON Array</h2>
+  <ul>
+    <li><strong>What it is:</strong> A data structure in JSON that holds an <strong>ordered list of values</strong>.</li>
+    <li><strong>Syntax:</strong> Square brackets <code>[]</code></li>
+    <li><strong>Example:</strong>
+      <pre><code>[
+  "apple",
+  "banana",
+  "cherry"
+]</code></pre>
+    </li>
+    <li>Values can be:
+      <ul>
+        <li>Strings (<code>"apple"</code>)</li>
+        <li>Numbers (<code>42</code>)</li>
+        <li>Booleans (<code>true</code>)</li>
+        <li>Null (<code>null</code>)</li>
+        <li>Objects (<code>{ "name": "John" }</code>)</li>
+        <li>Other arrays</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>✅ List</h2>
+  <ul>
+    <li><strong>General term</strong> for an <strong>ordered collection of items</strong>.</li>
+    <li>Used in many programming languages:
+      <ul>
+        <li><strong>Python:</strong> <code>list</code></li>
+        <li><strong>JavaScript:</strong> <code>Array</code></li>
+        <li><strong>Java:</strong> <code>List&lt;E&gt;</code></li>
+        <li><strong>JSON:</strong> No explicit term "list", but <strong>arrays</strong> serve this role</li>
+      </ul>
+    </li>
+  </ul>
+
+  <h2>✅ Summary Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Term</th>
+        <th>Context</th>
+        <th>Equivalent To</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>JSON array</td>
+        <td>JSON data</td>
+        <td>Array</td>
+      </tr>
+      <tr>
+        <td>List</td>
+        <td>General concept</td>
+        <td>Array in JSON</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
